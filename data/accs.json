@@ -1,0 +1,4 @@
+[
+  { "user": "testacc1", "pass": "123456", "gia": 10000 },
+  { "user": "testacc2", "pass": "abcdef", "gia": 20000 }
+]
