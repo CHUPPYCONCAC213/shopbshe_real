@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ShopBSHE - Bán Acc Roblox</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <h1>Danh sách acc</h1>
+  <div class="acc-container">
+    <% accs.forEach(acc => { %>
+      <div class="acc-card">
+        <p><strong>User:</strong> <%= acc.user %></p>
+        <p><strong>Giá:</strong> <%= acc.gia %></p>
+      </div>
+    <% }) %>
+  </div>
+</body>
+</html>
