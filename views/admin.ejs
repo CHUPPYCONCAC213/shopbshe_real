@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Đăng Nhập</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <h2>Đăng nhập Admin</h2>
+  <% if (error) { %>
+    <p style="color: red;"><%= error %></p>
+  <% } %>
+  <form method="POST">
+    <input name="username" placeholder="Tài khoản admin" required />
+    <input name="password" placeholder="Mật khẩu" type="password" required />
+    <button>Đăng nhập</button>
+  </form>
+</body>
+</html>
